@@ -1,0 +1,16 @@
+{
+  "name": "sass-css-charset-bug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing CSS rule charset with sass/dart-sass",
+  "scripts": {
+    "build-prod": "sass style.scss --style compressed",
+    "build-dev": "sass style.scss"
+  },
+  "author": "Andrei Dmitrijevohh",
+  "license": "",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {}
+}

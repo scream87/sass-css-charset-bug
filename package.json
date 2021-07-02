@@ -4,8 +4,8 @@
   "private": true,
   "description": "Testing CSS rule charset with sass/dart-sass",
   "scripts": {
-    "build-prod": "sass style.scss --style compressed",
-    "build-dev": "sass style.scss"
+    "expanded": "sass style.scss",
+    "compressed": "sass style.scss --style compressed"
   },
   "author": "Andrei Dmitrijevohh",
   "license": "",
